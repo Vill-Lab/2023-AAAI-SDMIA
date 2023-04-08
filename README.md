@@ -7,6 +7,6 @@ CUDA: 12.0
 Python: 3.8.3  
 torch: 1.8.0+cu111  
 os: Ubuntu 18.04  
-'''
+```
 pip install scikit-learn
-'''
+```
