@@ -1,6 +1,6 @@
-# Similarity Distribution based Membership Inference Attack on Person Re-Identification (AAAI 2023)
-This is the pytorch implementation of the paper (accpted by AAAI 2023).  
-## Enviroment setting
+# Similarity Distribution based Membership Inference Attack on Person Re-Identification (AAAI oral 2023 )
+This is the pytorch implementation of the paper (accepted by AAAI oarl 2023).  
+## Environment setting
 
 GPU: RTX3090  
 CUDA: 12.0  
@@ -14,8 +14,8 @@ pip install scikit-learn
 ```
 
 ## Getting start  
-Step1: Gaining the feature embedding outputs of trainning and test set from target model.  
-Step2: Trainning and evaluating the model.
+Step 1: Gaining the feature embedding outputs of training and test set from the target model.  
+Step 2: Training and evaluating the model.
 ```
 python main.py
 ```
