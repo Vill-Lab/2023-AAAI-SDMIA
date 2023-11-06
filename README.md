@@ -1,5 +1,5 @@
 # Similarity Distribution based Membership Inference Attack on Person Re-Identification (AAAI oral 2023 )
-This is the pytorch implementation of the paper (accepted by AAAI oarl 2023).  
+This is the pytorch implementation of the [paper](https://ojs.aaai.org/index.php/AAAI/article/view/26731) (accepted by AAAI oarl 2023).  
 ## Environment setting
 
 GPU: RTX3090  
@@ -23,10 +23,21 @@ python main.py
 ## Citation  
 If you use this code or the models in your research, please give credit to the following papers:  
 ```
-@article{gao2022similarity,
-  title={Similarity Distribution based Membership Inference Attack on Person Re-identification},
-  author={Gao, Junyao and Jiang, Xinyang and Zhang, Huishuai and Yang, Yifan and Dou, Shuguang and Li, Dongsheng and Miao, Duoqian and Deng, Cheng and Zhao, Cairong},
-  journal={arXiv preprint arXiv:2211.15918},
-  year={2022}
+@inproceedings{GaoJZYD0MDZ23,
+  author       = {Junyao Gao and
+                  Xinyang Jiang and
+                  Huishuai Zhang and
+                  Yifan Yang and
+                  Shuguang Dou and
+                  Dongsheng Li and
+                  Duoqian Miao and
+                  Cheng Deng and
+                  Cairong Zhao},
+  title        = {Similarity Distribution Based Membership Inference Attack on Person
+                  Re-identification},
+  booktitle    = {Thirty-Seventh {AAAI} Conference on Artificial Intelligence, {AAAI}},
+  pages        = {14820--14828},
+  publisher    = {{AAAI} Press},
+  year         = {2023},
 }
 ```
